@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+*.ipynb_checkpoints
+GitLab/
+data/
+clips/
+clips.wav/
+vocal-whisper.py
+vosk.ipynb
