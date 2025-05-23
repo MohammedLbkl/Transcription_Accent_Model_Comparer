@@ -3,7 +3,8 @@ __pycache__/
 .env
 *.ipynb_checkpoints
 GitLab/
-data/
+processed/
+raw/
 clips/
 clips.wav/
 vocal-whisper.py
