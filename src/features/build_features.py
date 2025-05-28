@@ -22,7 +22,7 @@ def data_spectrograme(data=metadata , kernel_size=100, stride=100):
         l.append(flat_array)
     
     # Crée une ligne avec 3839 colonnes
-    row = np.random.rand((mel.shape[0]*mel.shape[1])/kernel_size)
+    row = np.random.rand((mel.shape[0]*mel.shape[1])//kernel_size)
     df = pd.DataFrame([row])
     df = df.drop(0)
     

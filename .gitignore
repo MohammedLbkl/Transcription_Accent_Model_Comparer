@@ -7,5 +7,4 @@ processed/
 raw/
 clips/
 clips.wav/
-vocal-whisper.py
-vosk.ipynb
+.Autre/
